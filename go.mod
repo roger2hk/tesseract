@@ -62,6 +62,8 @@ require (
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/prometheus/prometheus v0.51.0 // indirect
+	github.com/tink-crypto/tink-go-gcpkms/v2 v2.2.0 // indirect
+	github.com/tink-crypto/tink-go/v2 v2.2.0 // indirect
 	github.com/transparency-dev/merkle v0.0.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/detectors/gcp v1.29.0 // indirect

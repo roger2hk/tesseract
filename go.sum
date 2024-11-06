@@ -959,6 +959,10 @@ github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o
 github.com/stretchr/testify v1.8.3/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
+github.com/tink-crypto/tink-go-gcpkms/v2 v2.2.0 h1:3B9i6XBXNTRspfkTC0asN5W0K6GhOSgcujNiECNRNb0=
+github.com/tink-crypto/tink-go-gcpkms/v2 v2.2.0/go.mod h1:jY5YN2BqD/KSCHM9SqZPIpJNG/u3zwfLXHgws4x2IRw=
+github.com/tink-crypto/tink-go/v2 v2.2.0 h1:L2Da0F2Udh2agtKztdr69mV/KpnY3/lGTkMgLTVIXlA=
+github.com/tink-crypto/tink-go/v2 v2.2.0/go.mod h1:JJ6PomeNPF3cJpfWC0lgyTES6zpJILkAX0cJNwlS3xU=
 github.com/transparency-dev/formats v0.0.0-20240909113624-7ce4ea605e8b h1:zayRkU4edHlGKIdOyo40FyrgKdtEBCv6FJ1ik1aaWLg=
 github.com/transparency-dev/formats v0.0.0-20240909113624-7ce4ea605e8b/go.mod h1:nA3+izsIcFoFgSKm3bHxS2/W4xdzSHMweE7REPunqUM=
 github.com/transparency-dev/merkle v0.0.2 h1:Q9nBoQcZcgPamMkGn7ghV8XiTZ/kRxn1yCG81+twTK4=
