@@ -30,6 +30,7 @@ import (
 
 	"github.com/google/trillian/monitoring/opencensus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	tdnote "github.com/transparency-dev/formats/note"
 	sctfe "github.com/transparency-dev/static-ct"
 	"github.com/transparency-dev/static-ct/storage"
 	gcpSCTFE "github.com/transparency-dev/static-ct/storage/gcp"
@@ -79,6 +80,12 @@ func main() {
 	if err != nil {
 		klog.Exitf("Can't create secret manager signer: %v", err)
 	}
+
+	verifierString, err := tdnote.RFC6962VerifierString(*origin, signer.Public())
+	if err != nil {
+		klog.Fatalf("Failed to get RFC6962 verifier string: %v", err)
+	}
+	klog.Infof("RFC6962 verifier string: %s", verifierString)
 
 	chainValidationConfig := sctfe.ChainValidationConfig{
 		RootsPEMFile:     *rootsPemFile,
