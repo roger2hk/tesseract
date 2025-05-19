@@ -31,7 +31,7 @@ import (
 func NewGSFetcher(ctx context.Context, bucket string, c *gcs.Client) (*GSFetcher, error) {
 	if c == nil {
 		var err error
-		c, err = gcs.NewClient(ctx, gcs.WithJSONReads())
+		c, err = gcs.NewGRPCClient(ctx)
 		if err != nil {
 			return nil, err
 		}
